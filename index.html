@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LinkedIn Insights Tool - Simplified</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>LinkedIn Insights Tool</h1>
+      <p>Analyze company posts and engagement on LinkedIn</p>
+    </header>
+
+    <div class="search-container">
+      <input type="text" id="companyInput" placeholder="Enter company name (e.g. google)">
+      <button onclick="fetchPosts()">Fetch Posts</button>
+      <button onclick="downloadCSV()" class="secondary">Export CSV</button>
+    </div>
+
+    <div id="messageContainer" class="message-container"></div>
+
+    <div id="dateFilter" class="filters-container" style="display: none;">
+      <label>From: <input type="date" id="startDate"></label>
+      <label>To: <input type="date" id="endDate"></label>
+      <button onclick="filterByDate()">Filter</button>
+      <button onclick="resetDateFilter()" class="secondary">Reset</button>
+      <select onchange="sortPosts(this.value)" style="margin-left:10px;">
+        <option value="">Sort by</option>
+        <option value="reactions">Most Reactions</option>
+        <option value="comments">Most Comments</option>
+        <option value="reposts">Most Reposts</option>
+        <option value="date">Newest First</option>
+      </select>
+    </div>
+
+    <div id="postsContainer"></div>
+
+    <button onclick="loadMorePosts()" id="loadMoreBtn" style="display:none; margin-top:20px;">Load More</button>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="js/config.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

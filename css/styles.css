@@ -1,0 +1,132 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+h1 {
+  color: #0077b5;
+  margin-bottom: 5px;
+}
+
+.search-container {
+  margin-bottom: 20px;
+}
+
+.filters-container {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+}
+
+.post-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.post-content {
+  flex: 1;
+}
+
+.post-stats {
+  width: 200px;
+}
+
+.post-text {
+  white-space: pre-line;
+  margin-bottom: 15px;
+}
+
+.engagement-stats {
+  margin: 15px 0;
+}
+
+.stat-item {
+  margin-right: 15px;
+}
+
+.post-media img {
+  max-width: 100%;
+  margin-top: 10px;
+  border-radius: 4px;
+}
+
+button {
+  padding: 8px 12px;
+  margin-left: 10px;
+  background-color: #0077b5;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button.secondary {
+  background-color: #999;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+input, select {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+#companyInput {
+  width: 300px;
+}
+
+.loading {
+  text-align: center;
+  padding: 40px;
+  font-size: 18px;
+  color: #666;
+}
+
+.error-container {
+  padding: 20px;
+  background-color: #ffebee;
+  color: #c62828;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.message {
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+}
+
+.info-message {
+  background-color: #e3f2fd;
+  color: #0277bd;
+}
+
+.error-message {
+  background-color: #ffebee;
+  color: #c62828;
+}
+
+.success-message {
+  background-color: #e8f5e9;
+  color: #2e7d32;
+}
