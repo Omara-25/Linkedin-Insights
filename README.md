@@ -18,11 +18,6 @@
 
 A powerful web application that allows users to analyze company posts and engagement metrics from LinkedIn. This tool fetches and displays LinkedIn posts for any company, providing valuable insights into their social media performance.
 
-<div align="center">
-  <img src="https://i.imgur.com/placeholder-screenshot.png" alt="LinkedIn Insights Tool Screenshot" width="80%"/>
-  <p><i>Note: Replace with actual screenshot of your application</i></p>
-</div>
-
 ## ✨ Key Features
 
 | Feature | Description |
@@ -59,7 +54,7 @@ LinkedIn-Insights/
 
 1. Clone this repository
    ```bash
-   git clone https://github.com/yourusername/LinkedIn-Insights.git
+   git clone https://github.com/Omara-25/Linkedin-Insights.git
    ```
 
 2. Navigate to the project directory
@@ -142,7 +137,7 @@ Created with ❤️ by Critical Future Team for efficient LinkedIn data analysis
 <div align="center">
   <p>If you find this tool useful, please consider giving it a ⭐ on GitHub!</p>
   <p>
-    <a href="https://github.com/yourusername/LinkedIn-Insights">
+    <a href="https://github.com/Omara-25/Linkedin-Insights">
       <img src="https://img.shields.io/github/stars/yourusername/LinkedIn-Insights?style=social" alt="GitHub stars"/>
     </a>
   </p>
@@ -158,7 +153,7 @@ bash
 Copy
 Edit
 # Clone the repository
-git clone https://github.com/yourusername/LinkedIn-Insights.git
+git clone https://github.com/Omara-25/Linkedin-Insights.git
 
 # Navigate to the project folder
 cd LinkedIn-Insights
@@ -228,4 +223,4 @@ This project is licensed under the MIT License.
 👨‍💻 About
 Built with ❤️ by the Critical Future Team — empowering efficient LinkedIn data analysis.
 
-<div align="center"> <p>If you found this project helpful, consider leaving a ⭐ on GitHub!</p> <a href="https://github.com/yourusername/LinkedIn-Insights"> <img src="https://img.shields.io/github/stars/yourusername/LinkedIn-Insights?style=social" alt="GitHub Stars"/> </a> </div>
+<div align="center"> <p>If you found this project helpful, consider leaving a ⭐ on GitHub!</p> <a href="https://github.com/yourusername/LinkedIn-Insights"> <img src="https://img.shields.io/github/stars/Omara-25/LinkedIn-Insights?style=social" alt="GitHub Stars"/> </a> </div>
