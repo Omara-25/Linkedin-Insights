@@ -15,7 +15,7 @@ const config = {
   // API Endpoints
   endpoints: {
     // Primary LinkedIn Posts API
-    postsApi: 'https://linkedin-api8.p.rapidapi.com/get-company-posts?start=0',
+    postsApi: 'https://linkedin-api-production-e832.up.railway.app/fetch-posts',
 
     // Backup LinkedIn Posts API (same as primary for now)
     postsApiBackup: 'https://linkedin-api-production-e832.up.railway.app/fetch-posts',
