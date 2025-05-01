@@ -4,6 +4,14 @@
   * This file contains configuration settings for the LinkedIn Insights Tool,
   * including API keys and endpoints.
   */
+
+   const config = {
+   // RapidAPI Keys
+   rapidApiKeys: {
+     primary: '9e189ebd0bmsh5b2f5ae32f3db59p150ff3jsn325131d694bf',
+     backup: '4f87a77f12msh615c9318ae3c588p182355jsne45ac9881da5'
+   },
+    
    // API Endpoints
    endpoints: {
      // Primary LinkedIn Posts API
