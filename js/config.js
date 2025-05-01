@@ -15,10 +15,10 @@
    // API Endpoints
    endpoints: {
      // Primary LinkedIn Posts API
-     postsApi: 'https://linkedin-api-production-e832.up.railway.app/fetch-posts',
+     postsApi: 'https://linkedin-api-production-8bd8.up.railway.app/fetch-posts',
  
      // Backup LinkedIn Posts API (same as primary for now)
-     postsApiBackup: 'https://linkedin-api-production-e832.up.railway.app/fetch-posts',
+     postsApiBackup: 'https://linkedin-api-production-8bd8.up.railway.app/fetch-posts',
  
      // Mock API for testing (returns sample data)
      mockApi: 'https://jsonplaceholder.typicode.com/posts'
