@@ -8,7 +8,7 @@
    const config = {
    // RapidAPI Keys
    rapidApiKeys: {
-     primary: '9e189ebd0bmsh5b2f5ae32f3db59p150ff3jsn325131d694bf',
+     primary: '55bdcfddd2mshafdd4c427b0363bp13e8a4jsn3fa372a87340',
      backup: '4f87a77f12msh615c9318ae3c588p182355jsne45ac9881da5'
    },
     
